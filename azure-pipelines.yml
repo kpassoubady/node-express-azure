@@ -26,7 +26,4 @@ steps:
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish artifacts: drop'
-- task: Delay@1
-  inputs:
-    delayForMinutes: '1'
   
